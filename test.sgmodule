@@ -1,8 +1,8 @@
-#!name=修改百度响应
-#!desc=将百度响应内容替换
+#!name=数据修改
+#!desc=修改数据响应
 
 [Script]
-百度响应修改 = type=http-response,pattern=^https?:\/\/(www\.)?baidu\.com,requires-body=1,script-path=https://raw.githubusercontent.com/CtrlAltDelet/Paprika/refs/heads/main/test.js
+ios修改 = type=http-response,pattern=^https?:\/\/sq-device\.apple\.com\/customer\/ProfileEligibilityCheck,requires-body=1,script-path=https://github.com/CtrlAltDelet/Paprika/raw/refs/heads/main/test.js
 
 [MITM]
-hostname = *.baidu.com
+hostname = sq-device.apple.com
